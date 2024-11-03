@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BT JS Buổi 7,8</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <div class="container max-w-sm mx-auto mt-20">
+      <form class="max-w-sm mx-auto">
+        <div class="mb-5">
+          <label
+            for="number1"
+            class="block mb-5 mt-5 text-sm font-medium text-gray-900 dark:text-white"
+            >Nhập vào số dương bất kỳ</label
+          >
+          <input
+            type="text"
+            id="number1"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            required
+          />
+        </div>
+      </form>
+      <button
+        id="btnInput"
+        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        Nhập số
+      </button>
+    </div>
+    <div class="max-w-sm mx-auto mt-5">
+      Mảng đã nhập:
+      <p id="inputArr"></p>
+    </div>
+    <div class="container max-w-sm mx-auto mt-20">
+      <h3 class="text-4xl text-red-300 text-center">
+        Bài tập 1: Tổng các số dương trong mảng
+      </h3>
+      <button
+        id="btnSumArr"
+        class="mt-5 mb-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        Tính Tổng Dương
+      </button>
+      <div id="result1"></div>
+    </div>
+    <div class="container max-w-sm mx-auto mt-20">
+      <h3 class="text-4xl text-red-300 text-center">
+        Bài tập 2: Đếm các số dương trong mảng
+      </h3>
+      <button
+        id="btnPCounter"
+        class="mt-5 mb-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        Đếm Số Dương
+      </button>
+      <div id="result2"></div>
+    </div>
+    <div class="container max-w-sm mx-auto mt-20">
+      <h3 class="text-4xl text-red-300 text-center">
+        Bài tập 3: Tìm số nhỏ nhất trong mảng
+      </h3>
+      <button
+        id="btnFindMin"
+        class="mt-5 mb-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        Tìm số nhỏ nhất
+      </button>
+      <div id="result3"></div>
+    </div>
+    <div class="container max-w-sm mx-auto mt-20">
+      <h3 class="text-4xl text-red-300 text-center">
+        Bài tập 4: Tìm số dương nhỏ nhất trong mảng
+      </h3>
+      <button
+        id="btnFindPosMin"
+        class="mt-5 mb-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        Tìm số dương nhỏ nhất
+      </button>
+      <div id="result4"></div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
